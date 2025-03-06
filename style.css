@@ -136,6 +136,18 @@ span.tooltip {
   cursor: pointer;
 }
 
+span.tooltip.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute
+  z-index: 1;
+}
+
 /* underline span on hover/focus */
 span.tooltip:hover,
 span.tooltip:focus {
@@ -144,7 +156,7 @@ span.tooltip:focus {
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
 span.tooltip:focus > span {
-  display: inline;
+  visibility: visible;
 }
 
 /* styling for tooltip bubble */
