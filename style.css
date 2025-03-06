@@ -103,7 +103,13 @@ section.hero > button {
 main article {
   padding: 48px 96px;
 }
- 
+
+span {
+  float: left;
+  line-height: 85%;
+  width: .7em;
+  font-size: 400%;
+}
 
 main p {
   line-height: 1.75;
@@ -111,13 +117,6 @@ main p {
   font-size: 75px;
 }
 
-main p:first-child::first-letter {
-  float: left;
-  margin: 0 8px 0 4px;
-  font-size: 3rem;
-  font-weight: bold;
-  line-height: 1;
-}
 
 main > article img {
   float: left;
