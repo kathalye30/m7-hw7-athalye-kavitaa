@@ -104,9 +104,9 @@ main article {
   padding: 48px 96px;
 }
 
-span.dropcaps {
+.dropcaps {
   float: left;
-  font-size: 400%;
+  font-size: xx-large;
 }
 
 main p {
