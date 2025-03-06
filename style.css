@@ -142,12 +142,12 @@ span.tooltip:focus {
   text-decoration: underline;
 }
 /* show tooltip on hover/focus */
-span.tooltip:hover .tooltiptext> span,
-span.tooltip:focus .tooltiptext> span {
+span.tooltip:hover > span,
+span.tooltip:focus > span {
   visibility: visible;
 }
 
-span.tooltip .tooltiptext {
+span.tooltip {
   width: 120px;
   bottom: 100%;
   left: 50%;
@@ -155,7 +155,7 @@ span.tooltip .tooltiptext {
 }
 
 /* styling for tooltip bubble */
-span.tooltip .tooltiptext {
+span.tooltip {
   visibility: hidden;
   width: 120px;
   background-color: black;
