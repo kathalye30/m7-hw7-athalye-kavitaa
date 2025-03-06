@@ -104,10 +104,16 @@ main article {
   padding: 48px 96px;
 }
 
-main p:first-child::first-letter {
+main p {
   line-height: 1.75;
   margin-bottom: 48px;
   font-size: 75px;
+}
+
+.dropcaps {
+  float: left;
+  line-height: 85%;
+  font-size:xx-large;
 }
 
 main > article img {
