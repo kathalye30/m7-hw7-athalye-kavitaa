@@ -104,10 +104,10 @@ main article {
   padding: 48px 96px;
 }
 
-main p:first {
+main p:first-child::first-letter {
   line-height: 1.75;
   margin-bottom: 48px;
-  font-size: xx-large;
+  font-size: 75px;
 }
 
 main > article img {
