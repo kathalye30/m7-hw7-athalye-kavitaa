@@ -103,7 +103,7 @@ main article {
   padding: 48px 96px;
 }
 
-main p::first-letter {
+main p:first {
   line-height: 1.75;
   margin-bottom: 48px;
   font-size: xx-large;
