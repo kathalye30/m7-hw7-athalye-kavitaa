@@ -80,7 +80,7 @@ main > section.hero {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  position:sticky; 
+  position: sticky; 
 }
 
 section.hero > .call-to-action {
