@@ -104,10 +104,6 @@ main article {
   padding: 48px 96px;
 }
 
-.dropcaps {
-  float: left;
-  font-size: xx-large;
-}
 
 main p {
   line-height: 1.75;
@@ -159,4 +155,11 @@ span.tooltip span {
 /* styling for tooltip bubble arrow */
 span.tooltip span::after {
   content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
