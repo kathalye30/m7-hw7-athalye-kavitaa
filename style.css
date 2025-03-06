@@ -81,6 +81,7 @@ main > section.hero {
   align-items: center;
   text-align: center;
   position: sticky; 
+  top: 0;
 }
 
 section.hero > .call-to-action {
