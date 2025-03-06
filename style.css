@@ -111,7 +111,7 @@ main p {
 }
 
 article p:first-of-type {
-  font-size: 3em;
+  font-size: xx-large;
   float: left;         
   line-height: 1;      
   margin-right: 10px;   
