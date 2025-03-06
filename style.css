@@ -110,10 +110,12 @@ main p {
   font-size: 75px;
 }
 
-.dropcaps {
+p:first-child::first-letter {
   float: left;
-  line-height: 85%;
-  font-size:xx-large;
+  margin: 0 8px 0 4px;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
 }
 
 main > article img {
